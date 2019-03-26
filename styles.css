@@ -1,0 +1,200 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f1f1f1!important;
+}
+
+.aijiro {
+    color: #171412;
+    background-color: #EBF6F7;
+}
+
+.white {
+    color: #171412;
+    background-color: #FFF;
+}
+
+.kokushoku {
+    color: #FFF;
+    background-color: #171412;
+}
+
+.sakura {
+    color: #171412;
+    background-color: #FCC9B9;
+}
+
+.light-sakura {
+    color: #171412;
+    background-color: #FEECE7;
+}
+
+.mizuasagi {
+    color: #FFF;
+    background-color: #749F8D;
+}
+
+.mizuasagi-text {
+    color: #749F8D;
+}
+
+.ruri {
+    color: #FFF;
+    background-color: #1F4788;
+}
+
+.ruri-text {
+    color: #1F4788;
+}
+
+.yamabuki {
+    color: #171412;
+    background-color: #FFA400;
+}
+
+.yamabuki-text {
+    color: #FFA400;
+}
+
+.round-large {
+    border-radius: 8px;
+}
+
+.round-xlarge {
+    border-radius: 16px;
+}
+
+.round-xxlarge {
+    border-radius: 32px;
+}
+
+.panel {
+    padding: 8px 16px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.panel:after,
+.panel:before,
+.bg-link:after,
+.bg-link:before {
+    content: "";
+    display: table;
+    clear: both
+}
+
+.padding,
+.padding > .col-12 {
+    padding: 0 8px;
+}
+
+.but {
+    cursor: pointer;
+}
+
+.but:hover {
+    opacity: 0.6;
+}
+
+.but:active {
+    color: #171412;
+    background-color: #FFA400;
+    opacity: 1;
+}
+
+@media (min-width: 992px) {
+    .mt-lg-7 {
+        margin-top: 8rem!important;
+    }
+}
+
+.point {
+    width: 10px;
+    height: 10px;
+    margin-top: 0.75rem;
+    margin-right: 0.3rem;
+}
+
+.read:hover {
+    color: #1F4788;
+}
+
+.meds {
+    margin-right: 0!important;
+    margin-left: 0!important;
+}
+
+.pill {
+    min-width: 60px;
+    text-align: center;
+    padding: 8px 10px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    cursor: pointer;
+    border: none;
+}
+
+a[class*="pill"] {
+    text-decoration: none;
+}
+
+.pill:hover {
+    opacity: 0.6;
+}
+
+.pill:active {
+    color: #171412;
+    background-color: #FFA400;
+    opacity: 1;
+    outline: none;
+}
+
+a[class*="pill mizuasagi"] {
+    color: #FFF;
+}
+
+a[class*="pill sakura"] {
+    color: #171412;
+}
+
+button[class*="read"] {
+    outline: none;
+    border: none;
+    background-color: inherit;
+}
+
+button[class*="read"]:hover {
+    text-decoration: underline;
+}
+
+.bg-link {
+    display: inline-block;
+    width: 61px;
+    padding: 8px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.bg-link a:hover {
+    opacity: 0.6;
+}
+
+.bg-link a:active {
+    opacity: 1;
+}
+
+.h45 {
+    height: 50px;
+}
+
+.bord {
+    border: 1px solid #749F8D;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
